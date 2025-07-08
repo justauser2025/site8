@@ -1,0 +1,1108 @@
+[
+  {
+    "id": 1,
+    "titulo": "Sair para beber com os amigos",
+    "descricao": "É sábado à noite, os amigos de Alex chamaram ele para sair e beber. Alex vai aceitar?",
+    "dia_semana": [
+      "sábado"
+    ],
+    "horario_inicio": "18:00",
+    "horario_fim": "23:59",
+    "ocorrida": false,
+    "opcoes": {
+      "sim": {
+        "efeitos": {
+          "social": 2,
+          "sono": -2,
+          "energia": -1
+        },
+        "mensagem": "Alex saiu para beber com os amigos, mas prejudicou seu sono e sua energia. Perdeu 15 pontos."
+      },
+      "nao": {
+        "efeitos": {
+          "social": -1,
+          "sono": 2,
+          "saude": 1
+        },
+        "mensagem": "Alex não socializou com os amigos e foi dormir cedo. Ganhou 20 pontos."
+      }
+    }
+  },
+  {
+    "id": 2,
+    "titulo": "Correr no parque com um amigo",
+    "descricao": "É segunda de manhã e Alex foi convidado para correr no parque com um amigo.",
+    "dia_semana": [
+      "segunda"
+    ],
+    "horario_inicio": "06:00",
+    "horario_fim": "09:00",
+    "ocorrida": false,
+    "opcoes": {
+      "sim": {
+        "efeitos": {
+          "saude": 2,
+          "social": 1,
+          "energia": -2
+        },
+        "mensagem": "Alex correu com um amigo, melhorou sua saúde e fortaleceu laços. Ganhou 20 pontos."
+      },
+      "nao": {
+        "efeitos": {
+          "energia": 1,
+          "social": -1
+        },
+        "mensagem": "Alex preferiu descansar. Perdeu 10 pontos."
+      }
+    }
+  },
+  {
+    "id": 3,
+    "titulo": "Maratona de série nova",
+    "descricao": "Quinta à noite: uma série nova lançou. Alex quer maratonar os episódios.",
+    "dia_semana": [
+      "quinta"
+    ],
+    "horario_inicio": "19:00",
+    "horario_fim": "23:59",
+    "ocorrida": false,
+    "opcoes": {
+      "sim": {
+        "efeitos": {
+          "social": 1,
+          "sono": -2,
+          "produtividade": -1
+        },
+        "mensagem": "Alex maratonou a série e perdeu o controle do horário. Perdeu 15 pontos."
+      },
+      "nao": {
+        "efeitos": {
+          "sono": 1,
+          "produtividade": 1
+        },
+        "mensagem": "Alex resistiu e foi dormir cedo. Ganhou 20 pontos."
+      }
+    }
+  },
+  {
+    "id": 4,
+    "titulo": "Feira de alimentos saudáveis",
+    "descricao": "Domingo de manhã tem feira com frutas frescas e comidas saudáveis perto de casa.",
+    "dia_semana": [
+      "domingo"
+    ],
+    "horario_inicio": "08:00",
+    "horario_fim": "11:30",
+    "ocorrida": false,
+    "opcoes": {
+      "sim": {
+        "efeitos": {
+          "saude": 2,
+          "energia": 1,
+          "social": 1
+        },
+        "mensagem": "Alex foi à feira, se alimentou bem e socializou. Ganhou 25 pontos."
+      },
+      "nao": {
+        "efeitos": {
+          "saude": -1,
+          "social": -1
+        },
+        "mensagem": "Alex ficou em casa e comeu mal. Perdeu 10 pontos."
+      }
+    }
+  },
+  {
+    "id": 5,
+    "titulo": "Goteira no quarto",
+    "descricao": "Quarta-feira à tarde: uma goteira apareceu no quarto. Alex deve consertar ou ignorar?",
+    "dia_semana": [
+      "quarta"
+    ],
+    "horario_inicio": "14:00",
+    "horario_fim": "17:30",
+    "ocorrida": false,
+    "opcoes": {
+      "sim": {
+        "efeitos": {
+          "produtividade": 1,
+          "energia": -1
+        },
+        "mensagem": "Alex consertou a goteira e se sentiu resolutivo. Ganhou 15 pontos."
+      },
+      "nao": {
+        "efeitos": {
+          "sono": -1,
+          "produtividade": -1
+        },
+        "mensagem": "A goteira atrapalhou o sono e a concentração. Perdeu 20 pontos."
+      }
+    }
+  },
+  {
+    "id": 6,
+    "titulo": "Curso online gratuito",
+    "descricao": "Sexta à tarde: Alex recebeu um convite para um curso online gratuito.",
+    "dia_semana": [
+      "sexta"
+    ],
+    "horario_inicio": "14:00",
+    "horario_fim": "18:00",
+    "ocorrida": false,
+    "opcoes": {
+      "sim": {
+        "efeitos": {
+          "produtividade": 2
+        },
+        "mensagem": "Alex se dedicou ao curso e aprendeu bastante. Ganhou 20 pontos."
+      },
+      "nao": {
+        "efeitos": {
+          "produtividade": -1
+        },
+        "mensagem": "Alex perdeu a chance de se desenvolver. Perdeu 10 pontos."
+      }
+    }
+  },
+  {
+    "id": 7,
+    "titulo": "Almoço em família",
+    "descricao": "Domingo à tarde: Alex foi convidado para um almoço em família.",
+    "dia_semana": [
+      "domingo"
+    ],
+    "horario_inicio": "12:00",
+    "horario_fim": "14:00",
+    "ocorrida": false,
+    "opcoes": {
+      "sim": {
+        "efeitos": {
+          "social": 2,
+          "saude": 1
+        },
+        "mensagem": "Alex curtiu a companhia da família e comeu bem. Ganhou 20 pontos."
+      },
+      "nao": {
+        "efeitos": {
+          "social": -1
+        },
+        "mensagem": "Alex recusou o convite. Perdeu 10 pontos."
+      }
+    }
+  },
+  {
+    "id": 8,
+    "titulo": "Esqueceu de fazer compras",
+    "descricao": "Segunda-feira: Alex esqueceu de fazer compras. Pode sair ou pedir delivery.",
+    "dia_semana": [
+      "segunda"
+    ],
+    "horario_inicio": "18:00",
+    "horario_fim": "21:00",
+    "ocorrida": false,
+    "opcoes": {
+      "sim": {
+        "efeitos": {
+          "saude": 1,
+          "energia": -1
+        },
+        "mensagem": "Alex comprou alimentos frescos. Ganhou 15 pontos."
+      },
+      "nao": {
+        "efeitos": {
+          "saude": -1
+        },
+        "mensagem": "Alex pediu comida pouco saudável. Perdeu 10 pontos."
+      }
+    }
+  },
+  {
+    "id": 9,
+    "titulo": "Dor nas costas",
+    "descricao": "Quarta-feira de manhã: Alex está com dor nas costas. Deve alongar?",
+    "dia_semana": [
+      "quarta"
+    ],
+    "horario_inicio": "07:00",
+    "horario_fim": "10:00",
+    "ocorrida": false,
+    "opcoes": {
+      "sim": {
+        "efeitos": {
+          "saude": 2
+        },
+        "mensagem": "Alex se alongou e se sentiu melhor. Ganhou 15 pontos."
+      },
+      "nao": {
+        "efeitos": {
+          "saude": -2
+        },
+        "mensagem": "A dor piorou com o tempo. Perdeu 20 pontos."
+      }
+    }
+  },
+  {
+    "id": 10,
+    "titulo": "Feira de adoção de pets",
+    "descricao": "Sábado à tarde: Feira de adoção está acontecendo na cidade.",
+    "dia_semana": [
+      "sábado"
+    ],
+    "horario_inicio": "13:00",
+    "horario_fim": "17:00",
+    "ocorrida": false,
+    "opcoes": {
+      "sim": {
+        "efeitos": {
+          "social": 2,
+          "energia": -1
+        },
+        "mensagem": "Alex adotou um pet e ganhou companhia. Ganhou 20 pontos."
+      },
+      "nao": {
+        "efeitos": {},
+        "mensagem": "Alex decidiu não adotar por enquanto."
+      }
+    }
+  },
+  {
+    "id": 11,
+    "titulo": "Situação Aleatória 11",
+    "descricao": "Esta é uma situação aleatória número 11.",
+    "dia_semana": [
+      "sexta"
+    ],
+    "horario_inicio": "08:00",
+    "horario_fim": "22:00",
+    "ocorrida": false,
+    "opcoes": {
+      "sim": {
+        "efeitos": {
+          "saude": 1,
+          "sono": 0,
+          "produtividade": 1
+        },
+        "mensagem": "Alex aceitou a situação 11 e algo aconteceu. Pontos ajustados."
+      },
+      "nao": {
+        "efeitos": {
+          "social": -1,
+          "energia": 1
+        },
+        "mensagem": "Alex recusou a situação 11. Houve consequências."
+      }
+    }
+  },
+  {
+    "id": 12,
+    "titulo": "Situação Aleatória 12",
+    "descricao": "Esta é uma situação aleatória número 12.",
+    "dia_semana": [
+      "sábado"
+    ],
+    "horario_inicio": "08:00",
+    "horario_fim": "22:00",
+    "ocorrida": false,
+    "opcoes": {
+      "sim": {
+        "efeitos": {
+          "saude": -1,
+          "sono": -1,
+          "produtividade": 0
+        },
+        "mensagem": "Alex aceitou a situação 12 e algo aconteceu. Pontos ajustados."
+      },
+      "nao": {
+        "efeitos": {
+          "social": 0,
+          "energia": 0
+        },
+        "mensagem": "Alex recusou a situação 12. Houve consequências."
+      }
+    }
+  },
+  {
+    "id": 13,
+    "titulo": "Situação Aleatória 13",
+    "descricao": "Esta é uma situação aleatória número 13.",
+    "dia_semana": [
+      "domingo"
+    ],
+    "horario_inicio": "08:00",
+    "horario_fim": "22:00",
+    "ocorrida": false,
+    "opcoes": {
+      "sim": {
+        "efeitos": {
+          "saude": 0,
+          "sono": 0,
+          "produtividade": 1
+        },
+        "mensagem": "Alex aceitou a situação 13 e algo aconteceu. Pontos ajustados."
+      },
+      "nao": {
+        "efeitos": {
+          "social": -1,
+          "energia": 1
+        },
+        "mensagem": "Alex recusou a situação 13. Houve consequências."
+      }
+    }
+  },
+  {
+    "id": 14,
+    "titulo": "Situação Aleatória 14",
+    "descricao": "Esta é uma situação aleatória número 14.",
+    "dia_semana": [
+      "segunda"
+    ],
+    "horario_inicio": "08:00",
+    "horario_fim": "22:00",
+    "ocorrida": false,
+    "opcoes": {
+      "sim": {
+        "efeitos": {
+          "saude": 1,
+          "sono": -1,
+          "produtividade": 0
+        },
+        "mensagem": "Alex aceitou a situação 14 e algo aconteceu. Pontos ajustados."
+      },
+      "nao": {
+        "efeitos": {
+          "social": 0,
+          "energia": 0
+        },
+        "mensagem": "Alex recusou a situação 14. Houve consequências."
+      }
+    }
+  },
+  {
+    "id": 15,
+    "titulo": "Situação Aleatória 15",
+    "descricao": "Esta é uma situação aleatória número 15.",
+    "dia_semana": [
+      "terça"
+    ],
+    "horario_inicio": "08:00",
+    "horario_fim": "22:00",
+    "ocorrida": false,
+    "opcoes": {
+      "sim": {
+        "efeitos": {
+          "saude": -1,
+          "sono": 0,
+          "produtividade": 1
+        },
+        "mensagem": "Alex aceitou a situação 15 e algo aconteceu. Pontos ajustados."
+      },
+      "nao": {
+        "efeitos": {
+          "social": -1,
+          "energia": 1
+        },
+        "mensagem": "Alex recusou a situação 15. Houve consequências."
+      }
+    }
+  },
+  {
+    "id": 16,
+    "titulo": "Situação Aleatória 16",
+    "descricao": "Esta é uma situação aleatória número 16.",
+    "dia_semana": [
+      "quarta"
+    ],
+    "horario_inicio": "08:00",
+    "horario_fim": "22:00",
+    "ocorrida": false,
+    "opcoes": {
+      "sim": {
+        "efeitos": {
+          "saude": 0,
+          "sono": -1,
+          "produtividade": 0
+        },
+        "mensagem": "Alex aceitou a situação 16 e algo aconteceu. Pontos ajustados."
+      },
+      "nao": {
+        "efeitos": {
+          "social": 0,
+          "energia": 0
+        },
+        "mensagem": "Alex recusou a situação 16. Houve consequências."
+      }
+    }
+  },
+  {
+    "id": 17,
+    "titulo": "Situação Aleatória 17",
+    "descricao": "Esta é uma situação aleatória número 17.",
+    "dia_semana": [
+      "quinta"
+    ],
+    "horario_inicio": "08:00",
+    "horario_fim": "22:00",
+    "ocorrida": false,
+    "opcoes": {
+      "sim": {
+        "efeitos": {
+          "saude": 1,
+          "sono": 0,
+          "produtividade": 1
+        },
+        "mensagem": "Alex aceitou a situação 17 e algo aconteceu. Pontos ajustados."
+      },
+      "nao": {
+        "efeitos": {
+          "social": -1,
+          "energia": 1
+        },
+        "mensagem": "Alex recusou a situação 17. Houve consequências."
+      }
+    }
+  },
+  {
+    "id": 18,
+    "titulo": "Situação Aleatória 18",
+    "descricao": "Esta é uma situação aleatória número 18.",
+    "dia_semana": [
+      "sexta"
+    ],
+    "horario_inicio": "08:00",
+    "horario_fim": "22:00",
+    "ocorrida": false,
+    "opcoes": {
+      "sim": {
+        "efeitos": {
+          "saude": -1,
+          "sono": -1,
+          "produtividade": 0
+        },
+        "mensagem": "Alex aceitou a situação 18 e algo aconteceu. Pontos ajustados."
+      },
+      "nao": {
+        "efeitos": {
+          "social": 0,
+          "energia": 0
+        },
+        "mensagem": "Alex recusou a situação 18. Houve consequências."
+      }
+    }
+  },
+  {
+    "id": 19,
+    "titulo": "Situação Aleatória 19",
+    "descricao": "Esta é uma situação aleatória número 19.",
+    "dia_semana": [
+      "sábado"
+    ],
+    "horario_inicio": "08:00",
+    "horario_fim": "22:00",
+    "ocorrida": false,
+    "opcoes": {
+      "sim": {
+        "efeitos": {
+          "saude": 0,
+          "sono": 0,
+          "produtividade": 1
+        },
+        "mensagem": "Alex aceitou a situação 19 e algo aconteceu. Pontos ajustados."
+      },
+      "nao": {
+        "efeitos": {
+          "social": -1,
+          "energia": 1
+        },
+        "mensagem": "Alex recusou a situação 19. Houve consequências."
+      }
+    }
+  },
+  {
+    "id": 20,
+    "titulo": "Situação Aleatória 20",
+    "descricao": "Esta é uma situação aleatória número 20.",
+    "dia_semana": [
+      "domingo"
+    ],
+    "horario_inicio": "08:00",
+    "horario_fim": "22:00",
+    "ocorrida": false,
+    "opcoes": {
+      "sim": {
+        "efeitos": {
+          "saude": 1,
+          "sono": -1,
+          "produtividade": 0
+        },
+        "mensagem": "Alex aceitou a situação 20 e algo aconteceu. Pontos ajustados."
+      },
+      "nao": {
+        "efeitos": {
+          "social": 0,
+          "energia": 0
+        },
+        "mensagem": "Alex recusou a situação 20. Houve consequências."
+      }
+    }
+  },
+  {
+    "id": 21,
+    "titulo": "Situação Aleatória 21",
+    "descricao": "Esta é uma situação aleatória número 21.",
+    "dia_semana": [
+      "segunda"
+    ],
+    "horario_inicio": "08:00",
+    "horario_fim": "22:00",
+    "ocorrida": false,
+    "opcoes": {
+      "sim": {
+        "efeitos": {
+          "saude": -1,
+          "sono": 0,
+          "produtividade": 1
+        },
+        "mensagem": "Alex aceitou a situação 21 e algo aconteceu. Pontos ajustados."
+      },
+      "nao": {
+        "efeitos": {
+          "social": -1,
+          "energia": 1
+        },
+        "mensagem": "Alex recusou a situação 21. Houve consequências."
+      }
+    }
+  },
+  {
+    "id": 22,
+    "titulo": "Situação Aleatória 22",
+    "descricao": "Esta é uma situação aleatória número 22.",
+    "dia_semana": [
+      "terça"
+    ],
+    "horario_inicio": "08:00",
+    "horario_fim": "22:00",
+    "ocorrida": false,
+    "opcoes": {
+      "sim": {
+        "efeitos": {
+          "saude": 0,
+          "sono": -1,
+          "produtividade": 0
+        },
+        "mensagem": "Alex aceitou a situação 22 e algo aconteceu. Pontos ajustados."
+      },
+      "nao": {
+        "efeitos": {
+          "social": 0,
+          "energia": 0
+        },
+        "mensagem": "Alex recusou a situação 22. Houve consequências."
+      }
+    }
+  },
+  {
+    "id": 23,
+    "titulo": "Situação Aleatória 23",
+    "descricao": "Esta é uma situação aleatória número 23.",
+    "dia_semana": [
+      "quarta"
+    ],
+    "horario_inicio": "08:00",
+    "horario_fim": "22:00",
+    "ocorrida": false,
+    "opcoes": {
+      "sim": {
+        "efeitos": {
+          "saude": 1,
+          "sono": 0,
+          "produtividade": 1
+        },
+        "mensagem": "Alex aceitou a situação 23 e algo aconteceu. Pontos ajustados."
+      },
+      "nao": {
+        "efeitos": {
+          "social": -1,
+          "energia": 1
+        },
+        "mensagem": "Alex recusou a situação 23. Houve consequências."
+      }
+    }
+  },
+  {
+    "id": 24,
+    "titulo": "Situação Aleatória 24",
+    "descricao": "Esta é uma situação aleatória número 24.",
+    "dia_semana": [
+      "quinta"
+    ],
+    "horario_inicio": "08:00",
+    "horario_fim": "22:00",
+    "ocorrida": false,
+    "opcoes": {
+      "sim": {
+        "efeitos": {
+          "saude": -1,
+          "sono": -1,
+          "produtividade": 0
+        },
+        "mensagem": "Alex aceitou a situação 24 e algo aconteceu. Pontos ajustados."
+      },
+      "nao": {
+        "efeitos": {
+          "social": 0,
+          "energia": 0
+        },
+        "mensagem": "Alex recusou a situação 24. Houve consequências."
+      }
+    }
+  },
+  {
+    "id": 25,
+    "titulo": "Situação Aleatória 25",
+    "descricao": "Esta é uma situação aleatória número 25.",
+    "dia_semana": [
+      "sexta"
+    ],
+    "horario_inicio": "08:00",
+    "horario_fim": "22:00",
+    "ocorrida": false,
+    "opcoes": {
+      "sim": {
+        "efeitos": {
+          "saude": 0,
+          "sono": 0,
+          "produtividade": 1
+        },
+        "mensagem": "Alex aceitou a situação 25 e algo aconteceu. Pontos ajustados."
+      },
+      "nao": {
+        "efeitos": {
+          "social": -1,
+          "energia": 1
+        },
+        "mensagem": "Alex recusou a situação 25. Houve consequências."
+      }
+    }
+  },
+  {
+    "id": 26,
+    "titulo": "Situação Aleatória 26",
+    "descricao": "Esta é uma situação aleatória número 26.",
+    "dia_semana": [
+      "sábado"
+    ],
+    "horario_inicio": "08:00",
+    "horario_fim": "22:00",
+    "ocorrida": false,
+    "opcoes": {
+      "sim": {
+        "efeitos": {
+          "saude": 1,
+          "sono": -1,
+          "produtividade": 0
+        },
+        "mensagem": "Alex aceitou a situação 26 e algo aconteceu. Pontos ajustados."
+      },
+      "nao": {
+        "efeitos": {
+          "social": 0,
+          "energia": 0
+        },
+        "mensagem": "Alex recusou a situação 26. Houve consequências."
+      }
+    }
+  },
+  {
+    "id": 27,
+    "titulo": "Situação Aleatória 27",
+    "descricao": "Esta é uma situação aleatória número 27.",
+    "dia_semana": [
+      "domingo"
+    ],
+    "horario_inicio": "08:00",
+    "horario_fim": "22:00",
+    "ocorrida": false,
+    "opcoes": {
+      "sim": {
+        "efeitos": {
+          "saude": -1,
+          "sono": 0,
+          "produtividade": 1
+        },
+        "mensagem": "Alex aceitou a situação 27 e algo aconteceu. Pontos ajustados."
+      },
+      "nao": {
+        "efeitos": {
+          "social": -1,
+          "energia": 1
+        },
+        "mensagem": "Alex recusou a situação 27. Houve consequências."
+      }
+    }
+  },
+  {
+    "id": 28,
+    "titulo": "Situação Aleatória 28",
+    "descricao": "Esta é uma situação aleatória número 28.",
+    "dia_semana": [
+      "segunda"
+    ],
+    "horario_inicio": "08:00",
+    "horario_fim": "22:00",
+    "ocorrida": false,
+    "opcoes": {
+      "sim": {
+        "efeitos": {
+          "saude": 0,
+          "sono": -1,
+          "produtividade": 0
+        },
+        "mensagem": "Alex aceitou a situação 28 e algo aconteceu. Pontos ajustados."
+      },
+      "nao": {
+        "efeitos": {
+          "social": 0,
+          "energia": 0
+        },
+        "mensagem": "Alex recusou a situação 28. Houve consequências."
+      }
+    }
+  },
+  {
+    "id": 29,
+    "titulo": "Situação Aleatória 29",
+    "descricao": "Esta é uma situação aleatória número 29.",
+    "dia_semana": [
+      "terça"
+    ],
+    "horario_inicio": "08:00",
+    "horario_fim": "22:00",
+    "ocorrida": false,
+    "opcoes": {
+      "sim": {
+        "efeitos": {
+          "saude": 1,
+          "sono": 0,
+          "produtividade": 1
+        },
+        "mensagem": "Alex aceitou a situação 29 e algo aconteceu. Pontos ajustados."
+      },
+      "nao": {
+        "efeitos": {
+          "social": -1,
+          "energia": 1
+        },
+        "mensagem": "Alex recusou a situação 29. Houve consequências."
+      }
+    }
+  },
+  {
+    "id": 30,
+    "titulo": "Situação Aleatória 30",
+    "descricao": "Esta é uma situação aleatória número 30.",
+    "dia_semana": [
+      "quarta"
+    ],
+    "horario_inicio": "08:00",
+    "horario_fim": "22:00",
+    "ocorrida": false,
+    "opcoes": {
+      "sim": {
+        "efeitos": {
+          "saude": -1,
+          "sono": -1,
+          "produtividade": 0
+        },
+        "mensagem": "Alex aceitou a situação 30 e algo aconteceu. Pontos ajustados."
+      },
+      "nao": {
+        "efeitos": {
+          "social": 0,
+          "energia": 0
+        },
+        "mensagem": "Alex recusou a situação 30. Houve consequências."
+      }
+    }
+  },
+  {
+    "id": 31,
+    "titulo": "Situação Aleatória 31",
+    "descricao": "Esta é uma situação aleatória número 31.",
+    "dia_semana": [
+      "quinta"
+    ],
+    "horario_inicio": "08:00",
+    "horario_fim": "22:00",
+    "ocorrida": false,
+    "opcoes": {
+      "sim": {
+        "efeitos": {
+          "saude": 0,
+          "sono": 0,
+          "produtividade": 1
+        },
+        "mensagem": "Alex aceitou a situação 31 e algo aconteceu. Pontos ajustados."
+      },
+      "nao": {
+        "efeitos": {
+          "social": -1,
+          "energia": 1
+        },
+        "mensagem": "Alex recusou a situação 31. Houve consequências."
+      }
+    }
+  },
+  {
+    "id": 32,
+    "titulo": "Situação Aleatória 32",
+    "descricao": "Esta é uma situação aleatória número 32.",
+    "dia_semana": [
+      "sexta"
+    ],
+    "horario_inicio": "08:00",
+    "horario_fim": "22:00",
+    "ocorrida": false,
+    "opcoes": {
+      "sim": {
+        "efeitos": {
+          "saude": 1,
+          "sono": -1,
+          "produtividade": 0
+        },
+        "mensagem": "Alex aceitou a situação 32 e algo aconteceu. Pontos ajustados."
+      },
+      "nao": {
+        "efeitos": {
+          "social": 0,
+          "energia": 0
+        },
+        "mensagem": "Alex recusou a situação 32. Houve consequências."
+      }
+    }
+  },
+  {
+    "id": 33,
+    "titulo": "Situação Aleatória 33",
+    "descricao": "Esta é uma situação aleatória número 33.",
+    "dia_semana": [
+      "sábado"
+    ],
+    "horario_inicio": "08:00",
+    "horario_fim": "22:00",
+    "ocorrida": false,
+    "opcoes": {
+      "sim": {
+        "efeitos": {
+          "saude": -1,
+          "sono": 0,
+          "produtividade": 1
+        },
+        "mensagem": "Alex aceitou a situação 33 e algo aconteceu. Pontos ajustados."
+      },
+      "nao": {
+        "efeitos": {
+          "social": -1,
+          "energia": 1
+        },
+        "mensagem": "Alex recusou a situação 33. Houve consequências."
+      }
+    }
+  },
+  {
+    "id": 34,
+    "titulo": "Situação Aleatória 34",
+    "descricao": "Esta é uma situação aleatória número 34.",
+    "dia_semana": [
+      "domingo"
+    ],
+    "horario_inicio": "08:00",
+    "horario_fim": "22:00",
+    "ocorrida": false,
+    "opcoes": {
+      "sim": {
+        "efeitos": {
+          "saude": 0,
+          "sono": -1,
+          "produtividade": 0
+        },
+        "mensagem": "Alex aceitou a situação 34 e algo aconteceu. Pontos ajustados."
+      },
+      "nao": {
+        "efeitos": {
+          "social": 0,
+          "energia": 0
+        },
+        "mensagem": "Alex recusou a situação 34. Houve consequências."
+      }
+    }
+  },
+  {
+    "id": 35,
+    "titulo": "Situação Aleatória 35",
+    "descricao": "Esta é uma situação aleatória número 35.",
+    "dia_semana": [
+      "segunda"
+    ],
+    "horario_inicio": "08:00",
+    "horario_fim": "22:00",
+    "ocorrida": false,
+    "opcoes": {
+      "sim": {
+        "efeitos": {
+          "saude": 1,
+          "sono": 0,
+          "produtividade": 1
+        },
+        "mensagem": "Alex aceitou a situação 35 e algo aconteceu. Pontos ajustados."
+      },
+      "nao": {
+        "efeitos": {
+          "social": -1,
+          "energia": 1
+        },
+        "mensagem": "Alex recusou a situação 35. Houve consequências."
+      }
+    }
+  },
+  {
+    "id": 36,
+    "titulo": "Situação Aleatória 36",
+    "descricao": "Esta é uma situação aleatória número 36.",
+    "dia_semana": [
+      "terça"
+    ],
+    "horario_inicio": "08:00",
+    "horario_fim": "22:00",
+    "ocorrida": false,
+    "opcoes": {
+      "sim": {
+        "efeitos": {
+          "saude": -1,
+          "sono": -1,
+          "produtividade": 0
+        },
+        "mensagem": "Alex aceitou a situação 36 e algo aconteceu. Pontos ajustados."
+      },
+      "nao": {
+        "efeitos": {
+          "social": 0,
+          "energia": 0
+        },
+        "mensagem": "Alex recusou a situação 36. Houve consequências."
+      }
+    }
+  },
+  {
+    "id": 37,
+    "titulo": "Situação Aleatória 37",
+    "descricao": "Esta é uma situação aleatória número 37.",
+    "dia_semana": [
+      "quarta"
+    ],
+    "horario_inicio": "08:00",
+    "horario_fim": "22:00",
+    "ocorrida": false,
+    "opcoes": {
+      "sim": {
+        "efeitos": {
+          "saude": 0,
+          "sono": 0,
+          "produtividade": 1
+        },
+        "mensagem": "Alex aceitou a situação 37 e algo aconteceu. Pontos ajustados."
+      },
+      "nao": {
+        "efeitos": {
+          "social": -1,
+          "energia": 1
+        },
+        "mensagem": "Alex recusou a situação 37. Houve consequências."
+      }
+    }
+  },
+  {
+    "id": 38,
+    "titulo": "Situação Aleatória 38",
+    "descricao": "Esta é uma situação aleatória número 38.",
+    "dia_semana": [
+      "quinta"
+    ],
+    "horario_inicio": "08:00",
+    "horario_fim": "22:00",
+    "ocorrida": false,
+    "opcoes": {
+      "sim": {
+        "efeitos": {
+          "saude": 1,
+          "sono": -1,
+          "produtividade": 0
+        },
+        "mensagem": "Alex aceitou a situação 38 e algo aconteceu. Pontos ajustados."
+      },
+      "nao": {
+        "efeitos": {
+          "social": 0,
+          "energia": 0
+        },
+        "mensagem": "Alex recusou a situação 38. Houve consequências."
+      }
+    }
+  },
+  {
+    "id": 39,
+    "titulo": "Situação Aleatória 39",
+    "descricao": "Esta é uma situação aleatória número 39.",
+    "dia_semana": [
+      "sexta"
+    ],
+    "horario_inicio": "08:00",
+    "horario_fim": "22:00",
+    "ocorrida": false,
+    "opcoes": {
+      "sim": {
+        "efeitos": {
+          "saude": -1,
+          "sono": 0,
+          "produtividade": 1
+        },
+        "mensagem": "Alex aceitou a situação 39 e algo aconteceu. Pontos ajustados."
+      },
+      "nao": {
+        "efeitos": {
+          "social": -1,
+          "energia": 1
+        },
+        "mensagem": "Alex recusou a situação 39. Houve consequências."
+      }
+    }
+  },
+  {
+    "id": 40,
+    "titulo": "Situação Aleatória 40",
+    "descricao": "Esta é uma situação aleatória número 40.",
+    "dia_semana": [
+      "sábado"
+    ],
+    "horario_inicio": "08:00",
+    "horario_fim": "22:00",
+    "ocorrida": false,
+    "opcoes": {
+      "sim": {
+        "efeitos": {
+          "saude": 0,
+          "sono": -1,
+          "produtividade": 0
+        },
+        "mensagem": "Alex aceitou a situação 40 e algo aconteceu. Pontos ajustados."
+      },
+      "nao": {
+        "efeitos": {
+          "social": 0,
+          "energia": 0
+        },
+        "mensagem": "Alex recusou a situação 40. Houve consequências."
+      }
+    }
+  }
+]
